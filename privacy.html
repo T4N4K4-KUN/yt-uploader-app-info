@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="動画アップロードPoCにおける動画・Google認証情報・運用記録の取り扱いを説明します。">
+  <title>プライバシーポリシー | 動画アップロードPoC</title>
+  <style>
+    :root{color-scheme:light;font-family:system-ui,-apple-system,"Segoe UI","Noto Sans JP",sans-serif;color:#202b36;background:#f5f7fa}
+    *{box-sizing:border-box}body{margin:0;line-height:1.9}main{max-width:50rem;margin:3rem auto;padding:2.5rem;background:#fff;border:1px solid #dde3e9;border-radius:12px}nav{font-size:.94rem;color:#586574}nav a{margin-right:1.2rem}a{color:#175f78;text-underline-offset:.2em}a:focus-visible{outline:3px solid #d4a42c;outline-offset:4px}h1{font-size:clamp(1.7rem,5vw,2.3rem);line-height:1.4;margin:1.5rem 0 1rem}h2{font-size:1.15rem;line-height:1.5;margin:2rem 0 .6rem}p,ul{margin:.6rem 0}ul{padding-left:1.5rem}.label{color:#586574;font-size:.9rem}footer{margin-top:2.5rem;padding-top:1rem;border-top:1px solid #dde3e9;font-size:.9rem;color:#586574}@media(max-width:600px){main{margin:0;padding:1.4rem;border:0;border-radius:0}}
+  </style>
+</head>
+<body>
+  <main>
+    <nav aria-label="ページ案内"><a href="index.html">アプリについて</a><a href="privacy.html" aria-current="page">プライバシーポリシー</a></nav>
+    <h1>プライバシーポリシー</h1>
+    <p class="label">動画アップロードPoC</p>
+    <p>本アプリは、本人が自分のWindows端末で、自分の動画とYouTubeチャンネルを管理するための個人用アプリです。</p>
+    <h2>取得・使用する情報</h2>
+    <p>本人が指定した動画ファイルと、そのファイル名・サイズ・ハッシュなどの情報を読み取ります。Googleの認証を通じて動画投稿と状態照会の権限を取得し、チャンネル情報、動画の識別子、処理状態、投稿設定などを照会します。</p>
+    <p>これらは非公開投稿、重複防止、中断後の再開、投稿結果と元ファイルの照合、障害検知・復旧に使用します。Googleユーザーデータは、このページに説明した用途に限定して取り扱い、広告配信や販売のために提供しません。</p>
+    <h2>保存場所と期間</h2>
+    <p>Googleの認証トークンはWindowsのユーザーに結び付く保護機能で保護して端末内に保存します。投稿・照合の状態、運用ログ、設定、通知の記録も端末内に保存します。Googleアカウントのパスワードは本アプリでは保存しません。</p>
+    <p>認証情報と運用記録は、継続運用と復旧のため、本人が削除するまで端末内に保持します。本アプリの運営用クラウドへ動画や認証情報を集約する仕組みはありません。</p>
+    <h2>送信先と共有する情報</h2>
+    <p>Google・YouTubeへ、認証・API要求に必要な情報、動画本体、タイトルなどの投稿メタデータを送信します。投稿時の公開範囲は非公開です。Google側での取り扱いは<a href="https://policies.google.com/privacy?hl=ja">Googleプライバシーポリシー</a>と<a href="https://www.youtube.com/t/terms?hl=ja">YouTube利用規約</a>に従います。</p>
+    <p>メール通知を有効にした場合は、本人が設定したSMTP経路へ通知先アドレスと障害・復旧の要約を送信します。メール本文に動画本体やGoogleの認証トークンは含めません。通知用の資格情報はGoogleの投稿認証とは別に保護して端末内に保存します。</p>
+    <h2>動画と記録の削除</h2>
+    <p>元動画の削除が有効な場合に限り、投稿先と元ファイルの照合に合格した元動画を削除します。保護ルールに該当するファイルや、未確認・不一致・失敗したファイルは保持します。</p>
+    <p>端末内の認証情報や運用記録は、本アプリを停止した後に本人が削除できます。YouTube上に投稿した動画の管理・削除は、本人がYouTube側で行います。</p>
+    <h2>Googleへのアクセス権を解除する方法</h2>
+    <p><a href="https://myaccount.google.com/connections">Googleアカウントの接続管理</a>で本アプリを選び、アクセス権を削除できます。手順は<a href="https://support.google.com/accounts/answer/13533235?hl=ja">Google公式の接続管理の案内</a>をご覧ください。解除後はGoogleへの操作に再認証が必要です。接続の解除だけでは、端末内の記録や投稿済み動画は削除されません。</p>
+    <h2>この案内サイトについて</h2>
+    <p>この案内サイトには入力フォーム、追跡用スクリプト、アクセス解析、広告を設けていません。GitHub Pagesでは、配信元のGitHubがセキュリティ目的で閲覧者のIPアドレスを記録・保存します。詳しくは<a href="https://docs.github.com/ja/pages/getting-started-with-github-pages/what-is-github-pages">GitHub Pagesのデータ収集の説明</a>をご覧ください。</p>
+    <footer><a href="index.html">動画アップロードPoCについて</a></footer>
+  </main>
+</body>
+</html>
